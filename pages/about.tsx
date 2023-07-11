@@ -47,7 +47,7 @@ export async function getStaticProps({ preview = false }) {
         }`
     );
     console.log('articles', result.data.articles.results);
-    return result.data.articles.results[0];
+    return result.data.articles.results[1];
   }
   
 
