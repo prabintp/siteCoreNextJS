@@ -120,5 +120,5 @@ export async function getArticle(preview: boolean) {
       }`
   );
   console.log('articles', result.data.articles.results);
-  return result.data.articles.results[0];
+  return result.data.articles.results[1];
 }
